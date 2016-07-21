@@ -530,7 +530,7 @@ button.full-width, .button.full-width {
 }
 .button.stroke.red:hover {
 	background: #ff6163 !important;
-	color: blue;
+	color: #ff6163;
 }
 .button.stroke.green {
 	border-color: #9bc724;
