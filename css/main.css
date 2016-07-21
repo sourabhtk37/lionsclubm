@@ -1283,7 +1283,7 @@ hr {
 /* =================================================================== */
 #hero {
 	background: #63B9C6; 
-    #url() no-repeat center center fixed;
+    background: no-repeat center center fixed;
     background: linear-gradient(-90deg,#35D0CE, #24CB56);
 	-webkit-background-size: cover !important;
 	-moz-background-size: cover !important;
@@ -2004,4 +2004,7 @@ hr {
 }
 .more-projects .portfolio-wrapper {
 	text-align: left;
+}
+#tab {
+    margin-left: 30px;
 }
