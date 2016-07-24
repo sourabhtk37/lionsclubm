@@ -298,7 +298,7 @@ img {
 .column, .columns, .bgrid {
 	position: relative;
 	padding: 0 18px;
-	min-height: 1px;
+    min-height: 1px;
 	float: left;
 }
 .column.centered, .columns.centered {

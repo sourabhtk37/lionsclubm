@@ -1313,7 +1313,7 @@ hr {
 
 /* Necessary Styles */
 .flexslider {
-	position: relative;
+	position: 200px;
 	zoom: 1;
 	margin: 0;
 	padding: 0;
@@ -1466,7 +1466,8 @@ hr {
 /* portfolio items */
 .item .item-wrap {
 	overflow: hidden;
-	position: relative;
+	position: auto;  
+    padding-left: 95px;
 }
 .item .item-wrap a {
 	display: block;
@@ -2007,4 +2008,12 @@ hr {
 }
 #tab {
     margin-left: 30px;
+}
+
+.item-wrap-corlew {
+    
+}
+
+.item-padding {
+    padding-left: 55px;
 }
