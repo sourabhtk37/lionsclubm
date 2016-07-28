@@ -501,7 +501,6 @@ different heights to align properly. */
 	}
 	.first, [class*="bgrid-"] .bgrid:nth-child(n) {
 		clear: none;
-	
     }
 	.s-bgrid-sixth .bgrid:nth-child(6n+1), .s-bgrid-fourth .bgrid:nth-child(4n+1), .s-bgrid-third .bgrid:nth-child(3n+1), .s-bgrid-half .bgrid:nth-child(2n+1) {
 		clear: both;
