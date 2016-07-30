@@ -1448,8 +1448,9 @@ hr {
 /* l. Portfolio Section
 /* =================================================================== */
 #portfolio {
-	background: white;
+	background-color: whitesmoke;
 	padding-top: 120px;
+    display: block;
 }
 .ie #portfolio .row.items {
 	width: 1140px;
@@ -1549,7 +1550,7 @@ hr {
 /*  m. Services Section
 /* =================================================================== */
 #services {
-	background: #ecf0f1;
+	background-color: beige;
 	padding-top: 120px;
 	padding-bottom: 120px;
 	text-align: center;
@@ -2017,3 +2018,13 @@ hr {
 .item-padding {
     padding-left: 55px;
 }
+
+
+
+.grid {
+    position:relative;
+    display: inline-block;
+    float: left;
+    padding-left: 30px;
+    vertical-align: top;
+    }
