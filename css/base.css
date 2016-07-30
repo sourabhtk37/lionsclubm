@@ -26,6 +26,7 @@ html {
 }
 body {
 	margin: 0;
+    color: #555;
 }
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
 	display: block;
@@ -79,7 +80,10 @@ sup {
 sub {
 	bottom: -0.25em;
 }
-img {
+.grid img {
+    width: 300px;
+    height: 370px;
+    overflow: hidden;
 	border: 0;
 }
 svg:not(:root) {
@@ -101,7 +105,7 @@ code, kbd, pre, samp {
 	font-size: 1em;
 }
 button, input, optgroup, select, textarea {
-	color: inherit;
+	color: green;
 	font: inherit;
 	margin: 0;
 }
@@ -356,8 +360,7 @@ img {
 @media screen and (max-width:768px) {
 	.row {
 		width: auto;
-		padding-left: 30px;
-		padding-right: 30px;
+        display: block;
 	}
 	.row .row {
 		padding-left: 0;
