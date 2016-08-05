@@ -1168,7 +1168,6 @@ hr {
 	background-size: cover !important;
 	padding-top: 108px;
 	padding-bottom: 60px;
-	text-align: center;
 }
 #page-title .row {
 	max-width: 724px;
@@ -1553,10 +1552,9 @@ hr {
 	background-color: beige;
 	padding-top: 120px;
 	padding-bottom: 120px;
-	text-align: center;
 }
 .service-list {
-	margin: 15px -22px 0 -22px;
+	display: inline-grid;
 }
 .service-list .bgrid {
 	margin-top: 15px;
@@ -2023,7 +2021,7 @@ hr {
 
 .grid {
     position:relative;
-    display: inline-block;
+    display:grid;
     float: left;
     padding-left: 30px;
     vertical-align: top;
